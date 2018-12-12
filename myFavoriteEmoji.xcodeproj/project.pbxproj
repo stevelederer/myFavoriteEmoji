@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B4868A121C1B3960001B41D /* DELETEME-MODEL in Resources */ = {isa = PBXBuildFile; fileRef = 1B4868A021C1B3960001B41D /* DELETEME-MODEL */; };
-		1B4868A521C1B3960001B41D /* DELETEME-MODELCONTROLLER in Resources */ = {isa = PBXBuildFile; fileRef = 1B4868A421C1B3960001B41D /* DELETEME-MODELCONTROLLER */; };
-		1B4868A821C1B3960001B41D /* DELETEME-VIEWCONTROLLER in Resources */ = {isa = PBXBuildFile; fileRef = 1B4868A721C1B3960001B41D /* DELETEME-VIEWCONTROLLER */; };
 		1B4868AD21C1B3960001B41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4868AB21C1B3960001B41D /* Main.storyboard */; };
 		1B4868B021C1B3960001B41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4868AF21C1B3960001B41D /* AppDelegate.swift */; };
 		1B4868B221C1B3970001B41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4868B121C1B3970001B41D /* Assets.xcassets */; };
 		1B4868B521C1B3970001B41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4868B321C1B3970001B41D /* LaunchScreen.storyboard */; };
+		1B4868BD21C1B3C50001B41D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4868BC21C1B3C50001B41D /* Person.swift */; };
+		1B4868BF21C1B54F0001B41D /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4868BE21C1B54F0001B41D /* PersonController.swift */; };
+		1B4868C121C1C9450001B41D /* FavoriteEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4868C021C1C9450001B41D /* FavoriteEmojiTableViewController.swift */; };
+		1B4868C321C1D5210001B41D /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4868C221C1D5210001B41D /* EmojiTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B48689C21C1B3960001B41D /* myFavoriteEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFavoriteEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B4868A021C1B3960001B41D /* DELETEME-MODEL */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DELETEME-MODEL"; sourceTree = "<group>"; };
-		1B4868A421C1B3960001B41D /* DELETEME-MODELCONTROLLER */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DELETEME-MODELCONTROLLER"; sourceTree = "<group>"; };
-		1B4868A721C1B3960001B41D /* DELETEME-VIEWCONTROLLER */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DELETEME-VIEWCONTROLLER"; sourceTree = "<group>"; };
 		1B4868AC21C1B3960001B41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B4868AF21C1B3960001B41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B4868B121C1B3970001B41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B4868B421C1B3970001B41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B4868B621C1B3970001B41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4868BC21C1B3C50001B41D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1B4868BE21C1B54F0001B41D /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		1B4868C021C1C9450001B41D /* FavoriteEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteEmojiTableViewController.swift; sourceTree = "<group>"; };
+		1B4868C221C1D5210001B41D /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,6 @@
 		1B48689E21C1B3960001B41D /* myFavoriteEmoji */ = {
 			isa = PBXGroup;
 			children = (
-				1B4868B121C1B3970001B41D /* Assets.xcassets */,
-				1B4868B321C1B3970001B41D /* LaunchScreen.storyboard */,
-				1B4868B621C1B3970001B41D /* Info.plist */,
 				1B48689F21C1B3960001B41D /* Models */,
 				1B4868A221C1B3960001B41D /* Controllers */,
 				1B4868A921C1B3960001B41D /* Views */,
@@ -72,7 +71,7 @@
 		1B48689F21C1B3960001B41D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1B4868A021C1B3960001B41D /* DELETEME-MODEL */,
+				1B4868BC21C1B3C50001B41D /* Person.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -89,7 +88,7 @@
 		1B4868A321C1B3960001B41D /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1B4868A421C1B3960001B41D /* DELETEME-MODELCONTROLLER */,
+				1B4868BE21C1B54F0001B41D /* PersonController.swift */,
 			);
 			name = "Model Controllers";
 			sourceTree = "<group>";
@@ -97,7 +96,8 @@
 		1B4868A621C1B3960001B41D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1B4868A721C1B3960001B41D /* DELETEME-VIEWCONTROLLER */,
+				1B4868C021C1C9450001B41D /* FavoriteEmojiTableViewController.swift */,
+				1B4868C221C1D5210001B41D /* EmojiTextField.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -121,6 +121,9 @@
 		1B4868AE21C1B3960001B41D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1B4868B121C1B3970001B41D /* Assets.xcassets */,
+				1B4868B321C1B3970001B41D /* LaunchScreen.storyboard */,
+				1B4868B621C1B3970001B41D /* Info.plist */,
 				1B4868AF21C1B3960001B41D /* AppDelegate.swift */,
 			);
 			name = Resources;
@@ -184,9 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B4868A821C1B3960001B41D /* DELETEME-VIEWCONTROLLER in Resources */,
-				1B4868A121C1B3960001B41D /* DELETEME-MODEL in Resources */,
-				1B4868A521C1B3960001B41D /* DELETEME-MODELCONTROLLER in Resources */,
 				1B4868B521C1B3970001B41D /* LaunchScreen.storyboard in Resources */,
 				1B4868AD21C1B3960001B41D /* Main.storyboard in Resources */,
 				1B4868B221C1B3970001B41D /* Assets.xcassets in Resources */,
@@ -200,7 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B4868C121C1C9450001B41D /* FavoriteEmojiTableViewController.swift in Sources */,
+				1B4868BD21C1B3C50001B41D /* Person.swift in Sources */,
+				1B4868BF21C1B54F0001B41D /* PersonController.swift in Sources */,
 				1B4868B021C1B3960001B41D /* AppDelegate.swift in Sources */,
+				1B4868C321C1D5210001B41D /* EmojiTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
