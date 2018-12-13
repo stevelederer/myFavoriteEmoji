@@ -34,7 +34,6 @@ class FavoriteEmojiTableViewController: UITableViewController {
         }
         alertController.addTextField { (emojiTextField) in
             emojiTextField.placeholder = "🤯Your favorite emoji...🥳"
-            #warning("make this an emoji keyboard?")
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         let addNewPersonAction = UIAlertAction(title: "Add", style: .default) { (_) in
